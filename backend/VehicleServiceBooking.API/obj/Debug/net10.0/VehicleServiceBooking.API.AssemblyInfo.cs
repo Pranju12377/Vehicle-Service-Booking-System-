@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehicleServiceBooking.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0c714997314f2e2bcddd90373a6dadf323023d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac11be10b825f7abbef12dcf06d2edabd1dffe9")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehicleServiceBooking.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehicleServiceBooking.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

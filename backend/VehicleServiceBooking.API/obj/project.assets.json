@@ -83,23 +83,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pranjali\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUSU\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pranjali\\Desktop\\CDAC-Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\VehicleServiceBooking.API.csproj",
+      "projectUniqueName": "C:\\Users\\ASUSU\\Desktop\\CDAC Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\VehicleServiceBooking.API.csproj",
       "projectName": "VehicleServiceBooking.API",
-      "projectPath": "C:\\Users\\Pranjali\\Desktop\\CDAC-Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\VehicleServiceBooking.API.csproj",
-      "packagesPath": "C:\\Users\\Pranjali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pranjali\\Desktop\\CDAC-Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\obj\\",
+      "projectPath": "C:\\Users\\ASUSU\\Desktop\\CDAC Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\VehicleServiceBooking.API.csproj",
+      "packagesPath": "C:\\Users\\ASUSU\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUSU\\Desktop\\CDAC Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pranjali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUSU\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

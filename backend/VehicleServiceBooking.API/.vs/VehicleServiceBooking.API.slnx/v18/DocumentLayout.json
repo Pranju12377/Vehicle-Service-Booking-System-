@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pranjali\\Desktop\\CDAC-Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ASUSU\\Desktop\\CDAC Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F48E438-0FB4-8791-B602-415B05DB1A17}|VehicleServiceBooking.API.csproj|c:\\users\\asusu\\desktop\\cdac project\\vehicle-service-booking-system-\\backend\\vehicleservicebooking.api\\vehicleservicebooking.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F48E438-0FB4-8791-B602-415B05DB1A17}|VehicleServiceBooking.API.csproj|solutionrelative:vehicleservicebooking.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehicleServiceBooking.API",
+              "DocumentMoniker": "C:\\Users\\ASUSU\\Desktop\\CDAC Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\VehicleServiceBooking.API.csproj",
+              "RelativeDocumentMoniker": "VehicleServiceBooking.API.csproj",
+              "ToolTip": "C:\\Users\\ASUSU\\Desktop\\CDAC Project\\Vehicle-Service-Booking-System-\\backend\\VehicleServiceBooking.API\\VehicleServiceBooking.API.csproj",
+              "RelativeToolTip": "VehicleServiceBooking.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-26T14:36:11.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
