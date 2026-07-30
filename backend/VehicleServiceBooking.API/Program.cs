@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using VehicleServiceBooking.API.Data;
 
 namespace VehicleServiceBooking.API
 {
@@ -7,24 +9,40 @@ namespace VehicleServiceBooking.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // MySQL Database Connection
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseMySql(
+                    builder.Configuration.GetConnectionString("ConStr"),
+                    ServerVersion.AutoDetect(
+                        builder.Configuration.GetConnectionString("ConStr")
+                    )
+                )
+            );
 
+
+            // Add MVC Controllers
             builder.Services.AddControllers();
-            // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
+
+
+            // Swagger Configuration (.NET 9)
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+
+            // Configure HTTP pipeline
             if (app.Environment.IsDevelopment())
             {
-                app.MapOpenApi();
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
+
 
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
